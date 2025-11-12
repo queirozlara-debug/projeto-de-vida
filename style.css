@@ -10,8 +10,8 @@ header {
     padding: 20px;
     font-size: 32px;
     color: rgba(5, 5, 5, 0.968);
-}
-
+    
+} 
 .chamada {
     background: rgb(34, 172, 165);
     padding-bottom: 80px;
@@ -23,7 +23,7 @@ header {
 .chamada-texto {
     margin-right: 5%;
 }
-ing{
+img{
     height: 200px;
 }
 .categoria-vídeos {
@@ -35,3 +35,4 @@ ing{
     padding:20px;
     padding-right:20px;
 }
+
