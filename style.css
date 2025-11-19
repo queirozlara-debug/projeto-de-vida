@@ -3,6 +3,7 @@ body {
     background: rgb(34, 172, 165);
     margin: 0px;
     font-family:"font family selected", sans-serif;
+    marcin-bottom: 100px;
 }
 
 header {
@@ -21,10 +22,13 @@ header {
 }
 
 .chamada-texto {
-    margin-right: 5%;
+
 }
-img{
-    height: 200px;
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
 }
 .categoria-vídeos {
     display:flex;
@@ -34,5 +38,17 @@ img{
 .categoria {
     padding:20px;
     padding-right:20px;
+    marcin-top: 50px;
+}
+.categoria-vídeos img{
+opacity: 0.5;
+height: 200px;
+} 
+.categoria-vídeos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(211, 110, 211);
 }
 
+.categoria h2{
+    color:rgb(179, 113, 241);
+}
